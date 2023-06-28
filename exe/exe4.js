@@ -13,3 +13,4 @@ console.log(raiz1(81));
 const raiz2= n => n** 0.5;
 
 console.log(raiz(6561));
+
