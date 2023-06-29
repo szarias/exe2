@@ -1,19 +1,19 @@
 function imc(peso , altura){
     let resultado = peso / (altura * altura);
 
-    if (resultado <= 24.9) {
+    if (imc <= 24.9) {
         return "Peso normal"
     };
-    else if (resultado >=25 && resultado <= 29.9) {
+    else if (imc >=25 && imc <= 29.9) {
         return "Sobrepeso"
     }
-    else if (resultado >=30 && resultado <= 34,9) {
+    else if (imc>=30 && imc<= 34,9) {
         return "Obesidade grau I"
     }
-    else if (resultado >=35 && resultado <= 39,9) {
+    else if (imc >=35 && imc <= 39,9) {
         return "Obesidade grau II"
     }
-    else (resultado >= 40); {
+    else (imc >= 40); {
         return "Obesidade grau III"
     }
     

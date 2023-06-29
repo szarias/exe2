@@ -65,24 +65,3 @@
 
 //-------------------//
 
-function classificação(55){
-    if(idade <= 5){
-        console.log("Bebe");
-    }
-    else if(idade >=6 && idade <=13){
-        console.log("Criança");
-    }
-    else if(idade >=14 && idade <=17){
-        console.log("Adolescente");
-    }
-    else if(idade >=18 && idade <=60){
-        console.log("Adulto");
-    }
-    else if(idade >=61 && idade <=80){
-        console.log("Idoso");
-    }
-    else{
-        console.log("veio");
-    
-}
-
